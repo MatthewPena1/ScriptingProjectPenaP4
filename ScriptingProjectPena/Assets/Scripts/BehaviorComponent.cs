@@ -23,7 +23,7 @@ public class BehaviorComponent : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.B))
         {
-            GetComponent<Renderer>().material.color = Color.blue;
+            GetComponent<Renderer>().material.color = Color.black;
         }
         if (Input.GetKeyDown(KeyCode.C))
         {
